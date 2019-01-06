@@ -1,0 +1,18 @@
+{
+  "name": "platziserve-agent",
+  "version": "1.0.0",
+  "description": "Agente Platziserve",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damaso Salgado Cassiani",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.0.1",
+    "defaults": "^1.0.3",
+    "mqtt": "^2.18.8",
+    "standard": "^12.0.1",
+    "uuid": "^3.3.2"
+  }
+}

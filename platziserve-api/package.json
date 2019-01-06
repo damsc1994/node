@@ -1,0 +1,31 @@
+{
+  "name": "platziserve-api",
+  "version": "1.0.0",
+  "description": "Api platziserve",
+  "main": "server.js",
+  "scripts": {
+    "test": "DEBUG=platziserve:* ava tests/ --verbose",
+    "start": "PRODUCTION=node server.js",
+    "start-dev": "DEBUG=platziserve:* nodemon server.js"
+  },
+  "author": "Damaso Salgado Cassiani",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "ava": "^0.25.0",
+    "chalk": "^2.4.1",
+    "debug": "^4.0.1",
+    "express": "^4.16.3",
+    "express-asyncify": "^1.0.0",
+    "express-jwt": "^5.3.1",
+    "express-jwt-permissions": "^1.2.1",
+    "jsonwebtoken": "^8.3.0",
+    "platziserve-db": "file:../platziserve-db",
+    "proxyquire": "^2.1.0",
+    "sinon": "^6.3.4",
+    "supertest": "^3.3.0"
+  }
+}
